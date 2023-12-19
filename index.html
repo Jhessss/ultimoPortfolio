@@ -40,24 +40,31 @@
 
 
 
-    <section id="bio" class="classe" style="margin-top: 100px;">
+    <section id="bio" class="classe" style="margin-top: 150px;">
         <h1>Aprendizado de Máquina.</h1>
         <div class="line"></div>
-        <p style="text-align: justify;"><b>Machine learning é o uso de algoritmos para organizar dados, reconhecer padrões e fazer com que computadores aprendam com esses modelos para gerar insights inteligentes sem a necessidade de pré-programação.
+        <p style="text-align: justify;">Machine learning é o uso de algoritmos para organizar dados, reconhecer padrões e fazer com que computadores aprendam com esses modelos para gerar insights inteligentes sem a necessidade de pré-programação.
 
             De uma forma mais geral, podemos dizer que machine learning é a área da ciência da computação que permite tornar a inteligência artificial real. 
             
-            Os algoritmos de machine learning aprendem a partir dos dados inseridos em si. Assim, as máquinas são treinadas para aprender a executar diferentes tarefas de forma autônoma. Logo, ao serem expostas a novos dados, elas se adaptam a partir dos cálculos anteriores e os padrões se moldam para oferecer respostas confiáveis.</b></p>
+            Os algoritmos de machine learning aprendem a partir dos dados inseridos em si. Assim, as máquinas são treinadas para aprender a executar diferentes tarefas de forma autônoma. Logo, ao serem expostas a novos dados, elas se adaptam a partir dos cálculos anteriores e os padrões se moldam para oferecer respostas confiáveis. <br>
+            A Imagem 1 demonstra que aprendizado de máquina é uma subárea da inteligência artificial que se concentra no desenvolvimento de algoritmos que podem aprender a partir de dados. O aprendizado profundo é uma subárea do aprendizado de máquina que se concentra no uso de redes neurais profundas para aprender.
+
+        </p>
+
 
             <img src="image-4.webp" style="width: 700px; margin-top: 50px;">
+            <h5 style="margin-bottom: 20px;">Imagem 1 - Enquadramento do aprendizado de máquina</h5>
+
 
     </section>
 
     <section id="tipos" class="classe">
         <h1>Tipos</h1>
         <div class="line"></div>
-        <img src="tipos.png" style="width: 800px; margin-bottom: 70px;">
-        <p style="text-align: justify;">Na prática, o Machine Learning possui 3 tipos de variações, que definem diferentes tipos de aprendizado. Eles são:<br><br>
+        <img src="tipos.png" style="width: 800px;">
+        <h5 style="margin-bottom: 50px;">Imagem 2 - Tipos de Aprendizado e utilizações</h5>
+        <p style="text-align: justify;">Na prática, o Machine Learning possui 3 tipos de variações, como mostra a Imagem 2, que definem diferentes tipos de aprendizado. Eles são:<br><br>
             <b class="maior">Aprendizado Supervisionado</b> <br><br>
             Nesse tipo de aprendizado, os algoritmos são treinados usando um conjunto de dados rotulados, ou seja, cada exemplo de treinamento é acompanhado de uma resposta correta. O objetivo do algoritmo é aprender a mapear as entradas para as saídas corretas, de modo que possa fazer previsões precisas para novos dados. Exemplos de algoritmos de aprendizado supervisionado incluem regressão linear, regressão logística, máquinas de suporte vetorial (SVM) e redes neurais.<br><br>
             O aprendizado de máquina supervisionado é uma abordagem na qual o algoritmo é treinado com um conjunto de dados rotulado, ou seja, dados que incluem pares de entrada e saída desejada. Nesse contexto, alguns dos algoritmos fundamentais são K-Nearest Neighbors (KNN), Modelos Lineares e Classificadores Bayesianos.<br>
@@ -110,12 +117,14 @@ No processo de treinamento, o Q-Learning permite que o agente aprenda ações qu
         <h1>Classificação e Regressão</h1>
         <div class="line"></div>
             <div style="text-align: center  !important;">
-            <img src="Aprendizado-supervisionada.png"> <br><br>
+            <img src="Aprendizado-supervisionada.png">
+            <h5 style="margin-bottom: 20px;">Imagem 3 - Classificação Vs Regressão</h5>
+            <br>
             </div>
             <p class="classe" style="text-align: justify;">
                 As aplicações do Aprendizado Supervisionado geralmente se concentram em 2 tipos: problemas de classificação e problemas de regressão.
 
-Na classificação, objetiva-se taguear adequadamente os sujeitos de teste em determinada categoria de interesse, e na regressão, objetiva-se chegar a um valor numérico contínuo como resultado. <br><br>
+Na classificação, objetiva-se taguear adequadamente os sujeitos de teste em determinada categoria de interesse, e na regressão, objetiva-se chegar a um valor numérico contínuo como resultado, como mostra a Imagem 3. <br><br>
 
 <b> i. Extração de Características: </b> <br> <br>
 
@@ -137,13 +146,115 @@ O equilíbrio entre extração de características, pré-processamento e a gest�
 
    <section id="deep">
         <h1>Redes Neurais e Deep Learning</h1>
+        <div class="line" style="margin-bottom: 80px;"></div>
+
+        <img src="neural.png">
+        <h5 style="margin-bottom: 70px;">Imagem 4 - Rede neural simples e rede neural profunda</h5>
+
+        <p class="classe" style="text-align: justify;">
+            As Redes Neurais e o Aprendizado Profundo representam um campo empolgante e revolucionário no âmbito da inteligência artificial, com aplicações que abrangem desde reconhecimento de imagem até processamento de linguagem natural. <br>
+            A Imagem 4 mostra as diferenças entre as duas redes neurais. A rede neural simples é mais simples e fácil de entender, mas é menos capaz de aprender representações complexas. A rede neural profunda é mais complexa e difícil de entender, mas é mais capaz de aprender representações complexas. <br><br>
+<b> 1. Redes Neurais: </b><br><br>
+
+As Redes Neurais são modelos computacionais inspirados no funcionamento do cérebro humano. Elas são compostas por camadas de neurônios interconectados, cada um com pesos que são ajustados durante o treinamento para realizar tarefas específicas. A camada de entrada recebe os dados, as camadas intermediárias (ocultas) processam informações e a camada de saída fornece o resultado da predição ou classificação. <br>
+
+ Treinamento:  O treinamento envolve a apresentação de exemplos ao modelo, ajustando os pesos para minimizar a diferença entre as previsões do modelo e os rótulos reais. Isso é frequentemente realizado usando algoritmos de otimização, como o Gradiente Descendente. <br>
+
+ Tipos de Redes Neurais: Dentre os tipos de redes neurais, destacam-se as Redes Neurais Feedforward (simples), Redes Neurais Recorrentes (que mantêm memória temporal) e Redes Neurais Convolucionais (eficientes para dados com estrutura espacial, como imagens). <br><br>
+
+<b> 2. Aprendizado Profundo: </b><br><br>
+
+O Aprendizado Profundo é uma subárea do aprendizado de máquina que se concentra no uso de arquiteturas de redes neurais profundas, ou seja, com muitas camadas. À medida que a profundidade da rede aumenta, ela se torna capaz de aprender representações hierárquicas mais complexas e abstratas dos dados, o que é fundamental para a compreensão de padrões sofisticados.
+
+Arquiteturas Notáveis: O Aprendizado Profundo inclui arquiteturas notáveis como Redes Neurais Convolucionais (CNNs) para visão computacional, Redes Neurais Recorrentes (RNNs) para sequências temporais e Redes Neurais Generativas (GANs) para a geração de novos dados.
+
+Transfer Learning: Uma característica importante do aprendizado profundo é o conceito de transfer learning, onde modelos pré-treinados em grandes conjuntos de dados podem ser ajustados para tarefas específicas com conjuntos de dados menores, economizando tempo e recursos computacionais.
+
+O Aprendizado Profundo tem transformado muitos campos, alcançando avanços notáveis em reconhecimento de imagem, tradução automática, processamento de linguagem natural e muito mais. Seu poder decorre da capacidade de aprender automaticamente características e representações complexas diretamente dos dados, eliminando a necessidade de engenharia manual de recursos.
+        </p>
+    </section>
+    <section id="discussoes" class="classe" style="margin-top: 100px;">
+        <h1>Discussões</h1>
         <div class="line"></div>
-        
+        <p style="text-align: justify;">
+
+          <b>  a. Explicações sobre outros algoritmos não discutidos: </b><br><br>
+
+Além dos algoritmos discutidos, vale a pena mencionar o Principal Component Analysis (PCA), que é uma técnica de redução de dimensionalidade amplamente utilizada. O PCA identifica as direções de maior variância nos dados, projetando-os em um novo espaço de características com dimensões reduzidas. Manifold Learning, por sua vez, é um conjunto de técnicas que buscam preservar a estrutura geométrica dos dados em espaços de menor dimensão, sendo útil quando os dados têm uma intrínseca dimensionalidade não linear. DBSCAN (Density-Based Spatial Clustering of Applications with Noise) é um algoritmo de clustering que se destaca por identificar clusters de forma robusta, considerando a densidade dos pontos.
+
+Além disso, redes neurais convolucionais (CNNs) são especializadas em dados com estrutura espacial, como imagens. Elas utilizam camadas convolucionais para aprender padrões hierárquicos, sendo amplamente empregadas em visão computacional. Redes neurais recorrentes (RNNs) são projetadas para lidar com dados sequenciais, mantendo uma memória interna que permite a consideração de contextos temporais em suas previsões. <br><br>
+
+<b> b. Descrição de técnicas para escolha de número de neurônios, número de camadas, funções de transferência: </b> <br>
+<br>
+
+A escolha do número de neurônios, camadas e funções de transferência em redes neurais é crucial. Técnicas como validação cruzada e busca em grade podem ser empregadas para ajustar hiperparâmetros. A escolha do número de neurônios pode depender da complexidade do problema, enquanto a determinação do número de camadas pode envolver experimentação para encontrar um equilíbrio entre underfitting e overfitting. Funções de transferência, como ReLU (Rectified Linear Unit) ou sigmoid, afetam a capacidade de aprendizado da rede e devem ser escolhidas com base na natureza do problema. <br><br>
+
+<b> c. Técnicas de XAI como LIME, Anchors: </b><br><br>
+
+Técnicas de Explicabilidade em Aprendizado de Máquina (XAI) são cruciais para compreender as decisões dos modelos, especialmente em contextos críticos. Local Interpretable Model-agnostic Explanations (LIME) é uma técnica que cria modelos locais simples para aproximar o comportamento de um modelo complexo em uma região específica dos dados. Anchors fornece regras de decisão simples que explicam as previsões de um modelo em termos compreensíveis. Essas técnicas ajudam a mitigar a "caixa preta" das redes neurais, proporcionando interpretabilidade em troca de complexidade do modelo. Essa abordagem é essencial em cenários onde compreender e confiar nas previsões do modelo são cruciais.
+</p>
+
+    </section>
+    <section id="problemas" class="classe" style="margin-top: 100px;">
+        <h1>Problemas e Projetos</h1>
+        <div class="line"></div>
+        <p style="text-align: justify;">
+            Aqui estão alguns exemplos de projetos que envolvem a implementação em código Python de algoritmos de aprendizado de máquina, distintos dos apresentados em sala de aula, ou adaptações com aplicações diferentes:
+<br><br>
+           <b> 1. Implementação de um Modelo de Recomendação com Fatoração de Matriz: </b><br><br>
+            
+            - Descrição: Desenvolver um sistema de recomendação personalizado utilizando fatoração de matriz. A ideia é aplicar o algoritmo em um contexto diferente do habitual, como recomendação de filmes, produtos, ou músicas, dependendo do conjunto de dados disponível.
+            <br>
+            - Algoritmo Utilizado: Singular Value Decomposition (SVD)** ou Alternating Least Squares (ALS) para fatoração de matriz.
+            <br>
+            - Bibliotecas Python: numpy, pandas, scikit-learn ou surprise. <br><br>
+            **Exemplo de um algoritmo de recomendação utilizando Singular Value Decomposition (SVD). <br><br><center>
+            <img src="recomendacaoSVD.png">
+            </center>
+            <br><br>
+
+</p>        
+<p style="text-align: justify;">
+
+            <b>2. Implementação de um Algoritmo de Detecção de Anomalias:</b><br><br>
+            
+            - Descrição: Construir um sistema de detecção de anomalias em séries temporais ou conjuntos de dados multidimensionais. Pode ser aplicado em diferentes domínios, como monitoramento de servidores, detecção de fraudes em transações financeiras, ou identificação de falhas em equipamentos.
+            <br>
+            - Algoritmo Utilizado: One-Class SVM, Isolation Forest*** ou Autoencoder para detecção de anomalias.
+            <br>
+            - Bibliotecas Python: scikit-learn, tensorflow ou pytorch.
+            <br><br>
+
+            ***Exemplo de um algoritmo de Detecção de Anomalias utilizando Isolation Forest. <br><br>
+            <center>
+                <img src="deteccaoAnomalia.png">
+                </center>
+                <br><br></p>
+        <p style="text-align: justify;">
+            <b>3. Implementação de um Modelo de Tradução Automática:</b><br><br>
+            
+            - Descrição: Criar um sistema de tradução automática entre duas línguas utilizando uma abordagem baseada em sequências. Aplicar o modelo em textos específicos, como tradução de textos técnicos ou literários.
+            <br>
+            - Algoritmo Utilizado: Redes Neurais Recorrentes (RNNs) ou ****Transformer.
+            <br>
+            - Bibliotecas Python: tensorflow, pytorch, ou bibliotecas específicas como transformers para modelos pré-treinados.
+            <br><br>
+            ****Exemplo de um algoritmo de tradução automática usando transformers. <br><br>
+            <center>
+                <img src="traducao.png">
+                </center>
+        </p>
+
     </section>
     <section id="referencias" class="classe" style="margin-top: 100px;">
         <h1>Referências</h1>
         <div class="line"></div>
-        <p style="text-align: justify;"><b></b></p>
+        <p style="text-align: justify;">
+        [1] Diferenças entre aprendizado supervisionado e não supervisionado.<a href="https://www.dio.me/articles/diferencas-entre-aprendizado-supervisionado-e-nao-supervisionado">Disponível nesse link </a> <br>
+        [2] Aprendizado Supervisionado vs. Aprendizado Não-Supervisionado em machine learning <a href="https://www.leansaude.com.br/aprendizado-supervisionado-vs-aprendizado-nao-supervisionado-em-machine-learning/">Disponível nesse link </a> <br>
+        [3] Deep e Machine Learning: qual a diferença? <a href="https://www.salesforce.com/br/blog/machine-learning-vs-deep-learning/?d=7013y000002ek9zaac&nc=7013y000002eki3aak&utm_source=google&utm_medium=paid_search&utm_campaign=latam_br_alllobaw&utm_content=pg-pt-mash_7013y000002ek9zaac&utm_term=machinelearning&ef_id=cjwkcaia-p-rbhbeeiwaqexhh_km3b3syh9so64wstjlintr-tfinpul12jgkqjgyvcplr2xuph65xock7gqavd_bwe:g:s&gclsrc=aw.ds&pcrid=672278065834&pdv=c&gad_source=1">Disponível nesse link </a><br>
+        [4] Introdução ao Machine Learning. <a href="https://dataat.github.io/introducao-ao-machine-learning/introdução.html">Disponível nesse link </a> <br>
+        </p>
 
     </section>
     <br>
@@ -153,15 +264,15 @@ O equilíbrio entre extração de características, pré-processamento e a gest�
         <div class="container contact_1">
             <hr>
             <img src="fotolts_compressed_Easy-Resize.com.jpg" style="width: 250px;" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
-            <div style="margin-top: 100px;">
+            <div style="margin-top: 80px;">
             <h3 style="font-family: cursive;" >Jhéssica Isabel Coelho Souza</h3><br>
             <h3 style="font-family: cursive;">Matrícula: 170146031</h3><br>
+            <h2><b> Contato </b> </h2>
             <a href="mailto:jhessicaisabel.eng@gmail.com?Subject=Hello">
                 
-                <span style="font-size: 30px;">📧</span>&nbsp;&nbsp;<h3>jhessicaisabel.eng@gmail.com</h3>
+                <span style="font-size: 30px;">📧</span>&nbsp;&nbsp;<h3>Email</h3>
             </a>
 
-            <br>
             <br>
 
             <a href="https://github.com/Jhessss" target="_blank">
@@ -170,6 +281,7 @@ O equilíbrio entre extração de características, pré-processamento e a gest�
                   </svg>
                 <i class="octicon octicon-mark-github"></i>&nbsp;&nbsp;<h3>Github</h3>
             </a>
+            <br><br>
         </div>
 
         </div>
